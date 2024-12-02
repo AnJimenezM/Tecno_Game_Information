@@ -1,0 +1,1372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 172, 10, 0.788);
+    background: transparent 1, 2fr;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: sans-serif;
+    
+
+}
+
+.cuenta{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+
+.cuenta:hover{
+    font-weight: bold;
+    color: rgb(13, 13, 216);
+    transition: all .4s;
+    cursor: pointer;
+    
+}
+
+
+
+.menu1{
+    display: flex;
+    
+}
+
+.menu1 li{
+    list-style: none;
+   
+}
+
+.menu1 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.menu1{
+    position: relative;
+    right: 66px;
+}
+
+.menu1 li a:hover{
+    color: rgb(238, 231, 231);
+    transition: all 0.3s;
+}
+
+#menu-icon{
+    font-size: 24px;
+    z-index: 10001;
+    color: white;
+    display: none;
+    
+}
+
+
+
+
+.submenu{
+ 
+  position: absolute;
+  padding: 22px;
+  
+ 
+
+}
+
+.despliegue{
+   flex-direction: column;
+    display: flex;
+    align-items: center;
+  
+}
+
+.despliegue li {
+    position: relative;
+    right: 5px;
+    margin-top: 10px;
+}
+.submenu{
+    visibility: hidden;
+}
+
+
+
+.imagen-logo img{
+    height: 250px;
+    width: 250px;
+}
+
+
+.submenu.visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+.titulo{
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+}
+
+.segundo-titulo{
+    display: flex;
+    margin-top: 70px;
+    padding: 4px;
+    margin-left: 27%;
+}
+
+.parrafo1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 420px;
+    right:21%;
+}
+
+
+.tercer-titulo{
+    position: absolute;
+    left: 63%;
+   bottom: 65%;
+
+}
+
+.imagen1{
+    width: 250px;
+    height: 25%;
+    display:flex;
+    margin-left: 24%;
+    
+}
+
+.parrafo2{
+    position: absolute;
+    left: 51%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.imagen2{
+    width: 250px;
+    height: 37%;
+    position: absolute;
+    left: 57%;
+    bottom: 24%;
+}
+
+.imagen-logo img{
+    display: flex;
+    padding-left:  90px;
+    width: 500px;
+    height: 400px;
+    
+}
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top: 205px;
+}
+
+.kokomi{
+position: absolute;
+display: flex;
+left: 510px;
+margin-top: 300px;
+   
+}
+
+.descripcionk{
+    position: absolute;
+    left: 360px;
+    display: flex;
+    margin-top: 670px;
+}
+
+
+.imgk{
+    width: 280px;
+    height: 30%;
+    position: absolute;
+    left: 420px;
+    margin-top: 380px;   
+   
+}
+
+.trotamundos{
+    position: absolute;
+    left: 62%;
+    display: flex;
+    margin-top: 300px;
+}
+
+
+.wander{
+    width: 270px;
+    height: 40%;
+    position: absolute;
+    left: 58%;
+    display: flex;
+    margin-top: 15%;
+
+}
+
+.descripcionc{
+    position: absolute;
+    left: 54%;
+    display: flex;
+    margin-top: 680px;
+}
+
+.gradient{
+    background: linear-gradient(-45deg, #FFA76E, #FFD5E6, #D5BFFF, #FFA7E6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    } 
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50;
+    }
+}
+
+@media(max-width:1325px){
+    .segundo-titulo{
+        display: flex;
+        margin-top: 70px;
+        padding: 4px;
+        margin-left: 19%;
+    }
+
+    .titulo{
+        display: flex;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .parrafo1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 450px;
+        left: 12%;
+        width: 250px;
+    }
+    
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 70%;
+       bottom: 65%;
+    
+    }
+    
+    .imagen1{
+        width: 250px;
+        height: 25%;
+        display:flex;
+        margin-left: 14%;
+        
+    }
+    
+    .parrafo2{
+        position: absolute;
+        left: 63%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+        width: 250px;
+    }
+    
+    .imagen2{
+        width: 250px;
+        height: 42%;
+        position: absolute;
+        left: 62%;
+        bottom: 13%;
+    }
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 205px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 240px;
+    margin-top: 300px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 195px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 670px;
+        width: 180px;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 157px;
+        margin-top: 380px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 69%;
+        display: flex;
+        margin-top: 300px;
+        width: 250px;
+    }
+    
+    
+    .wander{
+        width: 250px;
+        height: 40%;
+        position: absolute;
+        left: 63%;
+        display: flex;
+        margin-top: 25%;
+    
+    }
+    .descripcionc{
+        position: absolute;
+        left: 62%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 700px;
+        width: 250px;
+    }
+}
+@media(max-width:1061px){
+    .segundo-titulo{
+        display: flex;
+        margin-top: 70px;
+        padding: 4px;
+        margin-left: 19%;
+    }
+    
+    .parrafo1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 450px;
+        left: 9%;
+        width: 250px;
+    }
+    
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 72%;
+       bottom: 67%;
+    
+    }
+    
+    .imagen1{
+        width: 250px;
+        height: 25%;
+        display:flex;
+        margin-left: 13%;
+        
+    }
+    
+    .parrafo2{
+        position: absolute;
+        left: 64%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+        width: 250px;
+    }
+    
+    .imagen2{
+        width: 250px;
+        height: 37%;
+        position: absolute;
+        left: 62%;
+        bottom: 20%;
+    }
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 205px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 180px;
+    margin-top: 300px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 140px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 700px;
+        width: 180px;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 98px;
+        margin-top: 380px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 70%;
+        display: flex;
+        margin-top: 300px;
+        width: 250px;
+    }
+    
+    
+    .wander{
+        width: 250px;
+        height: 40%;
+        position: absolute;
+        left: 62%;
+        display: flex;
+        margin-top: 30%;
+    
+    }
+    .descripcionc{
+        position: absolute;
+        left: 61%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 700px;
+        width: 250px;
+    }
+}
+@media(max-width: 900px){
+
+
+   
+    #menu-icon
+    {
+        
+        display: block;
+        cursor: pointer;
+        margin-right: 40px;
+
+    }
+   
+
+   
+  
+
+    .navegacion{
+        position: relative;
+        right: 25px;
+    }
+
+
+    .menu1{
+        position: absolute;
+        top: 58px;
+        display: flex;
+        margin-right: 57px;
+        background-color: rgb(167, 127, 104);
+        border-radius: 10px;
+        padding: 2rem;
+        height: 2px;
+        
+      
+    }
+
+    .menu1 li a:hover{
+        color: red;
+        transition: all 0.5s;
+        display: block;
+    }
+
+    .menu1 li a{
+       color:  white;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin-bottom: 20px;
+       z-index: 15px;
+      
+    }
+
+    .menu1{
+        visibility: hidden;
+    }
+.menu1.open{
+    visibility: visible;
+    right: 0;
+}
+    .submenu{
+ 
+        position: absolute;
+        padding: 20px;
+       
+
+      }
+      
+      .despliegue{
+        flex-direction: column;
+        position: relative;
+        right: 10px;
+}
+.segundo-titulo{
+    position: absolute;
+    top: 157px;
+    right: 400px;
+    
+}
+
+.parrafo1{
+    width: 250px;
+    position: absolute;
+    top: 660px;
+    left: 330px;
+}
+
+.imagen1{
+    position: relative;
+    top: 90px;
+    left: 245px;
+}
+
+.tercer-titulo{
+    position: absolute;
+    left: 410px;
+    top: 790px;
+
+   
+}
+
+.parrafo2{
+    width: 250px;
+    top: 630px;
+    position: relative;
+    left: 320px;
+}
+
+.imagen2{
+    position: absolute;
+    top: 830px;
+    left: 300px;
+
+
+
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 680px;
+}
+
+.kokomi{
+position: absolute;
+display: flex;
+left: 410px;
+margin-top: 800px;
+   
+}
+
+.descripcionk{
+    position: absolute;
+    left: 360px;
+    display: flex;
+    margin-top: 1140px;
+    display: flex;
+    text-align: center;
+}
+
+
+.imgk{
+    width: 280px;
+    height: 30%;
+    position: absolute;
+    left: 320px;
+    margin-top: 850px;   
+   
+}
+
+.trotamundos{
+    position: absolute;
+    left: 45%;
+    display: flex;
+    margin-top: 1320px;
+}
+
+
+.wander{
+    width: 270px;
+    height: 40%;
+    position: absolute;
+    left: 35%;
+    display: flex;
+    margin-top: 1320px;
+
+}
+
+.descripcionc{
+    position: absolute;
+    left: 33%;
+    display: flex;
+    margin-top: 1700px;
+}
+
+}
+
+@media(max-width: 800px){
+    .segundo-titulo{
+        position: absolute;
+        top: 157px;
+        right: 350px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 660px;
+        left: 280px;
+    }
+    
+    .imagen1{
+        position: relative;
+        top: 90px;
+        left: 210px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 360px;
+        top: 790px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 630px;
+        position: relative;
+        left: 270px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 830px;
+        left: 250px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 680px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 360px;
+    margin-top: 800px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 300px;
+        display: flex;
+        margin-top: 1140px;
+        display: flex;
+        text-align: center;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 270px;
+        margin-top: 850px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 42%;
+        display: flex;
+        margin-top: 1320px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 29%;
+        display: flex;
+        margin-top: 1320px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 30%;
+        display: flex;
+        margin-top: 1700px;
+    }
+}
+
+@media(max-width: 680px){
+    .segundo-titulo{
+        position: absolute;
+        top: 157px;
+        right: 300px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 650px;
+        right: 230px;
+    }
+    
+    .imagen1{
+        position: relative;
+        top: 90px;
+        left: 80px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 300px;
+        top: 790px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 630px;
+        position: relative;
+        left: 200px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 830px;
+        left: 190px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 680px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 290px;
+    margin-top: 780px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 150px;
+        display: flex;
+        margin-top: 1140px;
+        display: flex;
+        text-align: center;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 200px;
+        margin-top: 840px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 40%;
+        display: flex;
+        margin-top: 1270px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 27%;
+        display: flex;
+        margin-top: 1300px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 18%;
+        display: flex;
+        margin-top: 1670px;
+    }
+    
+}
+
+@media(max-width: 700px){
+    .segundo-titulo{
+        position: absolute;
+        top: 157px;
+        right: 300px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 650px;
+        left: 226px;
+    }
+    
+    .imagen1{
+        position: relative;
+        top: 90px;
+        left: 170px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 310px;
+        top: 790px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 610px;
+        position: relative;
+        left: 220px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 830px;
+        left: 200px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 680px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 300px;
+    margin-top: 780px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 240px;
+        display: flex;
+        margin-top: 1100px;
+        display: flex;
+        text-align: center;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 210px;
+        margin-top: 840px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 40%;
+        display: flex;
+        margin-top: 1290px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 27%;
+        display: flex;
+        margin-top: 1300px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 27%;
+        display: flex;
+        margin-top: 1670px;
+    }
+}
+
+@media(max-width:600px){
+    .segundo-titulo{
+        position: absolute;
+        top: 157px;
+        right: 260px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 650px;
+        left: 170px;
+    }
+    
+    .imagen1{
+        position: relative;
+        top: 90px;
+        left: 130px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 250px;
+        top: 790px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 610px;
+        position: relative;
+        left: 150px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 830px;
+        left: 140px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        right: 30px;
+        top: 680px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 244px;
+    margin-top: 780px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 200px;
+        display: flex;
+        margin-top: 1100px;
+        display: flex;
+        text-align: center;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 160px;
+        margin-top: 840px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 40%;
+        display: flex;
+        margin-top: 1290px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 27%;
+        display: flex;
+        margin-top: 1300px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 24%;
+        display: flex;
+        margin-top: 1670px;
+    }
+}
+
+@media(max-width:550px){
+    .segundo-titulo{
+
+        position: absolute;
+        top: 157px;
+        right: 240px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 650px;
+        left: 130px;
+    }
+    
+    .imagen1{
+        position: relative;
+        top: 90px;
+        left: 100px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 230px;
+        top: 790px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 630px;
+        position: relative;
+        left: 135px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 830px;
+        left: 120px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 680px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 230px;
+    margin-top: 780px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 150px;
+        display: flex;
+        margin-top: 1140px;
+        display: flex;
+        text-align: center;
+        width: 250px;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 150px;
+        margin-top: 840px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 40%;
+        display: flex;
+        margin-top: 1280px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 27%;
+        display: flex;
+        margin-top: 1300px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 23%;
+        display: flex;
+        margin-top: 1670px;
+        width: 250px;
+      
+    }
+
+}
+
+@media(max-width: 390px){
+    .segundo-titulo{
+
+        position: absolute;
+        top: 230px;
+        right: 166px;
+        
+    }
+    
+    .parrafo1{
+        width: 250px;
+        position: absolute;
+        top: 710px;
+        left: 65px;
+    }
+    .titulo{
+        position: relative;
+        top: 50px;
+        left: 13px;
+        width: 300px;
+    }
+    .imagen1{
+        position: relative;
+        top: 60px;
+        left: 38px;
+    }
+    
+    .tercer-titulo{
+        position: absolute;
+        left: 150px;
+        top: 820px;
+    
+       
+    }
+    
+    .parrafo2{
+        width: 250px;
+        top: 540px;
+        position: relative;
+        left: 60px;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 860px;
+        left: 40px;
+    
+    
+    
+    }
+    
+    .titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 630px;
+        width: 300px;
+        left: 37px;
+    }
+    
+    .kokomi{
+    position: absolute;
+    display: flex;
+    left: 150px;
+    margin-top: 700px;
+       
+    }
+    
+    .descripcionk{
+        position: absolute;
+        left: 65px;
+        display: flex;
+        margin-top: 1020px;
+        display: flex;
+        text-align: center;
+        width: 250px;
+    }
+    
+    
+    .imgk{
+        width: 280px;
+        height: 30%;
+        position: absolute;
+        left: 70px;
+        margin-top: 760px;   
+       
+    }
+    
+    .trotamundos{
+        position: absolute;
+        left: 35%;
+        display: flex;
+        margin-top: 1170px;
+    }
+    
+    
+    .wander{
+        width: 270px;
+        height: 40%;
+        position: absolute;
+        left: 12%;
+        display: flex;
+        margin-top: 1200px;
+    
+    }
+    
+    .descripcionc{
+        position: absolute;
+        left: 15%;
+        display: flex;
+        margin-top: 1530px;
+        width: 250px;
+      
+    }
+
+  
+
+}
+
+@media(max-width:360px){
+    .segundo-titulo{
+
+        position: absolute;
+        top: 230px;
+        right: 140px;
+        
+    }
+}
+

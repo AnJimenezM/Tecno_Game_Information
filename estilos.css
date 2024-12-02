@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 172, 10, 0.788);
+    background: transparent 1, 2fr;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: sans-serif;
+    
+
+}
+
+.cuenta{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.cuenta:hover{
+    font-weight: bold;
+    color: rgb(13, 13, 216);
+    transition: all .4s;
+    cursor: pointer;
+    
+}
+
+
+
+.menu1{
+    display: flex;
+    
+}
+
+.menu1 li{
+    list-style: none;
+   
+}
+
+.menu1 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.menu1{
+    position: relative;
+    right: 66px;
+}
+
+.menu1 li a:hover{
+    color: rgb(238, 231, 231);
+    transition: all 0.3s;
+}
+
+#menu-icon{
+    font-size: 24px;
+    z-index: 10001;
+    color: white;
+    display: none;
+    
+}
+
+
+
+
+.submenu{
+ 
+  position: absolute;
+  padding: 22px;
+  
+ 
+
+}
+
+.despliegue{
+   flex-direction: column;
+    display: flex;
+    align-items: center;
+  
+}
+
+.despliegue li {
+    position: relative;
+    right: 35px;
+    margin-top: 10px;
+}
+.submenu{
+    visibility: hidden;
+}
+
+
+.submenu.visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+.imagen-logo img{
+    height: 250px;
+    width: 250px;
+}
+
+
+.titulo{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+ 
+
+}
+
+.imagen-logo img{
+    display: flex;
+    padding-left:  90px;
+    width: 400px;
+    height: 250px;
+    
+}
+
+.gradient{
+    background: linear-gradient(-45deg, #FFA76E, #FFD5E6, #D5BFFF, #FFA7E6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    } 
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50;
+    }
+}
+
+@media(max-width: 990px){
+
+
+   
+    #menu-icon
+    {
+        
+        display: block;
+        cursor: pointer;
+        margin-right: 40px;
+
+    }
+   
+
+   
+  
+
+    .navegacion{
+        position: relative;
+        right: 25px;
+    }
+
+
+    .menu1{
+        position: absolute;
+        top: 60px;
+        display: flex;
+        margin-right: 57px;
+        background-color: rgb(167, 127, 104);
+        border-radius: 10px;
+        padding: 2rem;
+        height: 2px;
+        
+      
+    }
+
+    .menu1 li a:hover{
+        color: red;
+        transition: all 0.5s;
+        display: block;
+    }
+
+    .menu1 li a{
+       color:  white;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin-bottom: 20px;
+       z-index: 15px;
+      
+    }
+
+    .menu1{
+        visibility: hidden;
+    }
+.menu1.open{
+    visibility: visible;
+    right: 0;
+}
+    .submenu{
+ 
+        position: absolute;
+        padding: 20px;
+       
+
+      }
+      
+      .despliegue{
+        flex-direction: column;
+        position: relative;
+        right: 2px;
+        bottom: 16px;
+}
+
+    header{
+       height: 60px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    .imagen-logo{
+       display: flex;
+       margin-right: 90px;
+       margin-top: 25px;
+    }
+
+    .imagen-logo{
+        width: 40%;
+        height: 40%;
+    }
+
+    .titulo{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width: 680px){
+    header{
+        width: 100%;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+    .imagen-logo{
+        width: 100%;
+    }
+}
+
+
